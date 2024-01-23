@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection{
+    background-color:#67b2db60;
+    
+}
+#root{
+    border: 1px solid black;
+}
+.App{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 0.9fr 1fr 5fr;
+}
+.header{
+    /* border: 2px solid blue; */
+    /* background-color: red; */
+    grid-column: 1/-1;
+}
+.dashboard{
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+.profile{
+    border: 2px solid black;
+    grid-column: 2/-1;
+}
